@@ -1,0 +1,43 @@
+[ {
+  "collectionName" : "MetadataDefinition",
+  "json" : {
+    "apiCount" : 0,
+    "createTime" : 1779183667247,
+    "id" : "6a0c303373500e9d0f2831bd",
+    "item_type" : [ "app" ],
+    "objCount" : 0,
+    "parent_id" : "6a0c303373500e9d0f2831be",
+    "publishedApiCount" : 0,
+    "readOnly" : true,
+    "value" : "Default"
+  }
+}, {
+  "collectionName" : "MetadataDefinition",
+  "json" : {
+    "apiCount" : 0,
+    "createTime" : 1779183667358,
+    "createUser" : "admin@admin.com",
+    "id" : "6a0c303373500e9d0f2831be",
+    "item_type" : [ "app" ],
+    "lastUpdBy" : "62bc5008d4958d013d97c7a6",
+    "objCount" : 0,
+    "parent_id" : "6a0c303391ed8111d1c57e5e",
+    "publishedApiCount" : 0,
+    "user_id" : "62bc5008d4958d013d97c7a6",
+    "value" : "API"
+  }
+}, {
+  "collectionName" : "MetadataDefinition",
+  "json" : {
+    "apiCount" : 0,
+    "createTime" : 1779183667223,
+    "createUser" : "admin@admin.com",
+    "id" : "6a0c303391ed8111d1c57e5e",
+    "item_type" : [ "target" ],
+    "lastUpdBy" : "62bc5008d4958d013d97c7a6",
+    "objCount" : 0,
+    "publishedApiCount" : 0,
+    "user_id" : "62bc5008d4958d013d97c7a6",
+    "value" : "TARGET"
+  }
+} ]
