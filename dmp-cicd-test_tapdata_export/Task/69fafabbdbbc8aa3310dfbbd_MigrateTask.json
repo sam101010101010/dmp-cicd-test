@@ -114,7 +114,7 @@
         "id" : "7f1f98f2-c1a2-4993-b069-10241f8e7c9c",
         "isTransformed" : false,
         "name" : "表编辑",
-        "prefix" : "FDM_CMS_",
+        "prefix" : "FDM_CMS_V2_",
         "replaceAfter" : "",
         "suffix" : "",
         "tableNames" : [ ],
@@ -266,9 +266,9 @@
         "readBatchSize" : 500,
         "syncForeignKeyEnable" : true,
         "syncObjects" : [ {
-          "objectNames" : [ "FDM_CMS_discharge_information" ],
+          "objectNames" : [ "FDM_CMS_V2_discharge_information" ],
           "tableNameRelation" : {
-            "discharge_information" : "FDM_CMS_discharge_information"
+            "discharge_information" : "FDM_CMS_V2_discharge_information"
           },
           "type" : "table"
         } ],
@@ -558,8 +558,8 @@
     "comment" : "",
     "constraints" : [ ],
     "createSource" : "job_analyze",
-    "createTime" : 1779694337515,
-    "createUser" : "admin@admin.com",
+    "createTime" : 1782381921691,
+    "createUser" : "martin",
     "databaseId" : "6a13faff91ed8111d1f584c1",
     "dev_version" : 1,
     "fields" : [ {
@@ -1096,7 +1096,7 @@
     "hasTransformEx" : false,
     "hasUnionIndex" : true,
     "hasUpdateField" : false,
-    "id" : "6a13fb0191ed8111d1f58992",
+    "id" : "6a3cfd6198ddd486125da382",
     "indices" : [ {
       "columns" : [ {
         "columnIsAsc" : true,
@@ -1134,11 +1134,11 @@
     } ],
     "is_deleted" : false,
     "meta_type" : "processor_node",
-    "name" : "FDM_CMS_discharge_information",
+    "name" : "FDM_CMS_V2_discharge_information",
     "nodeId" : "7f1f98f2-c1a2-4993-b069-10241f8e7c9c",
-    "original_name" : "FDM_CMS_discharge_information",
+    "original_name" : "FDM_CMS_V2_discharge_information",
     "partitionSet" : [ ],
-    "qualified_name" : "PN_7f1f98f2-c1a2-4993-b069-10241f8e7c9c_FDM_CMS_discharge_information",
+    "qualified_name" : "PN_7f1f98f2-c1a2-4993-b069-10241f8e7c9c_FDM_CMS_V2_discharge_information",
     "source" : {
       "_id" : "69fafa9adbbc8aa3310dfbaf",
       "agentTags" : [ ],
@@ -1152,7 +1152,7 @@
       "kafkaIgnoreInvalidRecord" : false,
       "kafkaIgnorePushError" : false,
       "lastUpdBy" : "62bc5008d4958d013d97c7a6",
-      "loadCount" : 2,
+      "loadCount" : 3,
       "loadFieldErrMsg" : "",
       "loadFieldsStatus" : "finished",
       "loadSchemaField" : true,
@@ -1160,18 +1160,18 @@
       "plain_password" : "",
       "project" : "",
       "retry" : 0,
-      "schemaVersion" : "54514e1e-f6f3-4fe1-aa35-5635f2fb807f",
+      "schemaVersion" : "9247ddd7-c8be-4d71-9e8d-866c3480b0a0",
       "status" : "ready",
       "submit" : true,
-      "tableCount" : 2,
-      "testTime" : 1779694407314,
+      "tableCount" : 3,
+      "testTime" : 1780596001444,
       "user_id" : "62bc5008d4958d013d97c7a6"
     },
     "sourceType" : "VIRTUAL",
     "taskId" : "69fafabbdbbc8aa3310dfbbd",
-    "transformUuid" : "1779695932778",
-    "user_id" : "62bc5008d4958d013d97c7a6",
-    "username" : "admin@admin.com"
+    "transformUuid" : "1782381922741",
+    "user_id" : "6a14fa226d50a06fa9bde297",
+    "username" : "martin"
   }
 }, {
   "collectionName" : "MetadataInstances",
@@ -1180,8 +1180,8 @@
     "comment" : "",
     "constraints" : [ ],
     "createSource" : "auto",
-    "createTime" : 1779694337517,
-    "createUser" : "admin@admin.com",
+    "createTime" : 1782381921693,
+    "createUser" : "martin",
     "databaseId" : "6a13faff91ed8111d1f584ae",
     "dev_version" : 1,
     "fields" : [ {
@@ -1193,7 +1193,7 @@
       "data_type" : "OBJECT_ID",
       "default_value" : null,
       "field_name" : "_id",
-      "id" : "7f1f98f2-c1a2-4993-b069-10241f8e7c9c_FDM_CMS_discharge_information__id",
+      "id" : "7f1f98f2-c1a2-4993-b069-10241f8e7c9c_FDM_CMS_V2_discharge_information__id",
       "is_auto_allowed" : true,
       "is_deleted" : false,
       "is_nullable" : true,
@@ -1204,7 +1204,7 @@
       "primaryKey" : false,
       "source" : "job_analyze",
       "sourceDbType" : "MongoDB",
-      "table_name" : "FDM_CMS_discharge_information",
+      "table_name" : "FDM_CMS_V2_discharge_information",
       "tapType" : "{\"bytes\":24,\"type\":10}",
       "unique" : false,
       "useDefaultValue" : true
@@ -1825,7 +1825,7 @@
     "hasTransformEx" : true,
     "hasUnionIndex" : true,
     "hasUpdateField" : false,
-    "id" : "6a13fb0191ed8111d1f58995",
+    "id" : "6a3cfd6198ddd486125da383",
     "indices" : [ {
       "columns" : [ {
         "columnIsAsc" : true,
@@ -1863,11 +1863,11 @@
     } ],
     "is_deleted" : false,
     "meta_type" : "table",
-    "name" : "FDM_CMS_discharge_information",
+    "name" : "FDM_CMS_V2_discharge_information",
     "nodeId" : "7f29c5b2-9b0b-4d4b-98ce-b53b2093f610",
-    "original_name" : "FDM_CMS_discharge_information",
+    "original_name" : "FDM_CMS_V2_discharge_information",
     "partitionSet" : [ ],
-    "qualified_name" : "T_mongodb_io_tapdata_1_0-SNAPSHOT_FDM_CMS_discharge_information_69faf93b49aea9d7664f2bc1_69fafabbdbbc8aa3310dfbbd",
+    "qualified_name" : "T_mongodb_io_tapdata_1_0-SNAPSHOT_FDM_CMS_V2_discharge_information_69faf93b49aea9d7664f2bc1_69fafabbdbbc8aa3310dfbbd",
     "source" : {
       "_id" : "69faf93b49aea9d7664f2bc1",
       "agentTags" : [ ],
@@ -1875,7 +1875,7 @@
       "createUser" : "admin@admin.com",
       "database_type" : "MongoDB",
       "database_uri" : "mongodb://null/null",
-      "db_version" : "7.0.11",
+      "db_version" : "4.4.23",
       "everLoadSchema" : true,
       "id" : "69faf93b49aea9d7664f2bc1",
       "kafkaAcks" : "-1",
@@ -1883,21 +1883,26 @@
       "kafkaIgnoreInvalidRecord" : false,
       "kafkaIgnorePushError" : false,
       "lastUpdBy" : "62bc5008d4958d013d97c7a6",
-      "loadCount" : 0,
+      "loadCount" : 52,
       "loadFieldErrMsg" : "",
       "loadFieldsStatus" : "finished",
+      "loadSchemaField" : true,
       "name" : "FDM",
       "plain_password" : "",
       "project" : "",
-      "schemaVersion" : "5bef7a94-6f33-4382-a885-1207defbb5b0",
+      "retry" : 0,
+      "schemaVersion" : "147c74ce-145d-4124-832d-2578c4e8bc9c",
+      "status" : "ready",
       "submit" : true,
-      "tableCount" : 0
+      "tableCount" : 53,
+      "testTime" : 1780596001136,
+      "user_id" : "62bc5008d4958d013d97c7a6"
     },
     "sourceType" : "VIRTUAL",
     "taskId" : "69fafabbdbbc8aa3310dfbbd",
-    "transformUuid" : "1779695932778",
-    "user_id" : "62bc5008d4958d013d97c7a6",
-    "username" : "admin@admin.com"
+    "transformUuid" : "1782381922741",
+    "user_id" : "6a14fa226d50a06fa9bde297",
+    "username" : "martin"
   }
 }, {
   "collectionName" : "MetadataInstances",
@@ -2512,7 +2517,7 @@
     },
     "sourceType" : "VIRTUAL",
     "taskId" : "69fafabbdbbc8aa3310dfbbd",
-    "transformUuid" : "1779695932778",
+    "transformUuid" : "1782381922741",
     "user_id" : "62bc5008d4958d013d97c7a6",
     "username" : "admin@admin.com"
   }
