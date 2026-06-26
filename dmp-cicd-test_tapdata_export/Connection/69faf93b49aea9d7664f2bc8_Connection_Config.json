@@ -133,7 +133,7 @@
     "kafkaRetries" : 0,
     "lastUpdAt" : 1779694335448,
     "loadAllTables" : true,
-    "loadCount" : 16,
+    "loadCount" : 17,
     "loadFieldErrMsg" : "",
     "loadFieldsStatus" : "finished",
     "name" : "MDM",
@@ -145,7 +145,7 @@
     "response_body" : {
       "retry" : 0,
       "validate_details" : [ {
-        "fail_message" : "2.0.7-SNAPSHOT (build: 2026-06-02 14:50:47)",
+        "fail_message" : "2.0.7-SNAPSHOT (build: 2026-06-25 14:33:47)",
         "required" : true,
         "show_msg" : "PDK Connector version",
         "sort" : 0,
@@ -187,11 +187,11 @@
     },
     "schema" : { },
     "schemaUpdateHour" : "default",
-    "schemaVersion" : "dea545b5-8505-481f-b642-998509a24263",
+    "schemaVersion" : "b9bfe8b2-fd46-4081-a4b8-f0dc1e751554",
     "shareCDCExternalStorageId" : "",
     "shareCdcEnable" : false,
     "submit" : true,
-    "tableCount" : 16,
+    "tableCount" : 17,
     "testCount" : 0,
     "timeDifference" : 0,
     "user_id" : "62bc5008d4958d013d97c7a6"
