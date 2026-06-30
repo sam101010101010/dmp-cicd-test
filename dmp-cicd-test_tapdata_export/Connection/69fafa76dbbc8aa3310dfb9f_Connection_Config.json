@@ -216,7 +216,7 @@
     "response_body" : {
       "retry" : 0,
       "validate_details" : [ {
-        "fail_message" : "2.0.5-SNAPSHOT (build: 2026-06-25 14:33:04)",
+        "fail_message" : "2.0.5-SNAPSHOT (build: 2026-06-25 17:51:40)",
         "required" : true,
         "show_msg" : "PDK Connector version",
         "sort" : 0,
@@ -267,7 +267,7 @@
     },
     "schema" : { },
     "schemaUpdateHour" : "default",
-    "schemaVersion" : "9c295c08-b76a-4e40-a898-052a4fb53625",
+    "schemaVersion" : "cd98aba0-339a-4a69-ab61-ad8db5c1eb45",
     "shareCDCExternalStorageId" : "",
     "shareCdcEnable" : false,
     "submit" : true,
