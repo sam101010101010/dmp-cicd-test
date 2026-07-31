@@ -1,0 +1,31 @@
+[ {
+  "collectionName" : "GroupInfo",
+  "json" : {
+    "description" : "",
+    "gitInfo" : {
+      "branch" : "main",
+      "repoUrl" : "https://github.com/sam101010101010/dmp-cicd-test.git"
+    },
+    "id" : "6a68997544ec8e331a7f41b8",
+    "name" : "CICD_TEST",
+    "resetTaskList" : [ ],
+    "resourceItemList" : [ {
+      "id" : "6a6896c744ec8e331a7f3116",
+      "name" : "FDM_HPI_QMH",
+      "type" : "MIGRATE_TASK"
+    }, {
+      "id" : "6a68963f44ec8e331a7f2e3b",
+      "name" : "FDM_CMSIP_QMH",
+      "type" : "MIGRATE_TASK"
+    }, {
+      "id" : "6a68987044ec8e331a7f3b0d",
+      "name" : "MDM_PATIENT_V1",
+      "type" : "SYNC_TASK"
+    }, {
+      "id" : "6a68995344ec8e331a7f4119",
+      "name" : "API_PATIENT",
+      "type" : "MODULE"
+    } ],
+    "user_id" : "62bc5008d4958d013d97c7a6"
+  }
+} ]
