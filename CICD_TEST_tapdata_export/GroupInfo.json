@@ -33,6 +33,14 @@
       "id" : "6a6af26244ec8e331a8a9c93",
       "name" : "API_PATIENT_V2",
       "type" : "MODULE"
+    }, {
+      "id" : "6a6acee244ec8e331a89d67e",
+      "name" : "MDM_CASE_V1",
+      "type" : "SYNC_TASK"
+    }, {
+      "id" : "6a6af33844ec8e331a8aa0f3",
+      "name" : "API_CASE",
+      "type" : "MODULE"
     } ],
     "user_id" : "62bc5008d4958d013d97c7a6"
   }
