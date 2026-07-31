@@ -25,6 +25,14 @@
       "id" : "6a68995344ec8e331a7f4119",
       "name" : "API_PATIENT",
       "type" : "MODULE"
+    }, {
+      "id" : "6a6af1ea44ec8e331a8a98d7",
+      "name" : "MDM_PATIENT_V2",
+      "type" : "SYNC_TASK"
+    }, {
+      "id" : "6a6af26244ec8e331a8a9c93",
+      "name" : "API_PATIENT_V2",
+      "type" : "MODULE"
     } ],
     "user_id" : "62bc5008d4958d013d97c7a6"
   }
