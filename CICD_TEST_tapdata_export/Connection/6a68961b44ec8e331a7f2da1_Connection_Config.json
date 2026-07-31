@@ -200,7 +200,7 @@
     "kafkaProducerRequestTimeout" : 0,
     "kafkaProducerUseTransactional" : false,
     "kafkaRetries" : 0,
-    "lastUpdAt" : 1785490061668,
+    "lastUpdAt" : 1785490168808,
     "loadAllTables" : true,
     "loadCount" : 1,
     "loadFieldErrMsg" : "",
@@ -252,11 +252,11 @@
         "sort" : 0,
         "status" : "passed"
       }, {
-        "fail_message" : "Cdc can work normally",
-        "required" : true,
+        "error_code" : "410003",
+        "required" : false,
         "show_msg" : "Read log",
         "sort" : 0,
-        "status" : "passed"
+        "status" : "failed"
       }, {
         "fail_message" : "113.98.206.142:25432",
         "required" : true,
@@ -907,7 +907,7 @@
       } ]
     },
     "schemaUpdateHour" : "default",
-    "schemaVersion" : "cf9419aa-2497-425d-afae-a720579d5e17",
+    "schemaVersion" : "1b54dc51-bd27-46cc-b10c-07444a45756b",
     "shareCDCExternalStorageId" : "",
     "shareCdcEnable" : false,
     "submit" : true,
