@@ -200,7 +200,7 @@
     "kafkaProducerRequestTimeout" : 0,
     "kafkaProducerUseTransactional" : false,
     "kafkaRetries" : 0,
-    "lastUpdAt" : 1785489161437,
+    "lastUpdAt" : 1785490061465,
     "loadAllTables" : true,
     "loadCount" : 3,
     "loadFieldErrMsg" : "",
@@ -2795,7 +2795,7 @@
       } ]
     },
     "schemaUpdateHour" : "default",
-    "schemaVersion" : "19dbba1f-c7a1-4333-83aa-da9a2bd5070c",
+    "schemaVersion" : "66b9ebea-a649-44ad-ab61-0ae6191bd01c",
     "shareCDCExternalStorageId" : "",
     "shareCdcEnable" : false,
     "submit" : true,
